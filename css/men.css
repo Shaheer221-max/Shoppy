@@ -16,7 +16,7 @@ body{
   height: 120vh;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:500px){
   .sale{
     background-color: black;
     box-sizing: border-box;
@@ -31,5 +31,8 @@ body{
     
   }
 }
+
+
+
 
 
