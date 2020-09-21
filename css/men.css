@@ -20,12 +20,9 @@ body{
 @media screen and (max-width: 768px){
   .black-friday{
     width: 100%;
-    height: auto;
     
   }
   .sale-poster {
     width: 100%;
-    height: auto;
-
   }
 }
