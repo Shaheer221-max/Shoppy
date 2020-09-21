@@ -5,33 +5,26 @@ body{
   font-family: 'Kufam', cursive;
 
 }
-.sale{
+.black-friday{
+  margin-top: 2.5%;
+  width: 100%;
+  height: 135vh;
   box-sizing: border-box;
-  margin-top: 5vh;
-  height: 97h;
-  width: 100%;
-
-}
-#sale-img{
-  height: 97vh;
-  width: 100%;
+  background-color: black;
   
 }
-
-@media only screen and (max-width:600px) and (min-width:300px){
-  .sale{
-    background-color: black;
-    box-sizing: border-box;
-    margin-top: 5vw;
-    height: 95vw;
-    width: 100%;
-    
+.sale-poster{
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px){
+  .black-friday{
+  width: 100%;
+  height: auto;
   }
-  #sale-img{
-    height: 95vw;
+  .sale-poster img{
     width: 100%;
-    
-    
+    height: auto;
+
   }
 }
-
