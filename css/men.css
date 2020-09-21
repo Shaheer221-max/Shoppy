@@ -8,21 +8,22 @@ body{
 .black-friday{
   margin-top: 2.5%;
   width: 100%;
-  height: 135vh;
   box-sizing: border-box;
-  background-color: black;
+  
   
 }
 .sale-poster{
   width: 100%;
-  height: 100%;
+  
 }
-@media (min-width: 768px){
+
+@media screen and (max-width: 768px){
   .black-friday{
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
+    
   }
-  .sale-poster img{
+  .sale-poster {
     width: 100%;
     height: auto;
 
