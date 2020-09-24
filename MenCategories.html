@@ -1,62 +1,74 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-        crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-       
-       
-        <link rel="stylesheet" href="styles.css">
+<head>
+  <title>Men</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    </head>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <span class="navbar-brand">Tindog</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="collapse_target">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+  <link rel="stylesheet" href="./css/men.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap" rel="stylesheet">
+</head>
 
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Link1</a>
-                        <div class="dropdown-menu">
-                            <a href="" class="dropdown-item">SHAHEER</a>
-                            <a href="" class="dropdown-item">Ahmed</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Link2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">link3</a>
-                    </li>
-                </ul>
-
-                <form class="form-inline" action="">
-                    <input type="search" class="form-control mr-sm-2" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0"> Search</button>
-                </form>
-            </div>  
+<body>
+    <!-- ****************** Nav Bar ****************** -->
+    <section id="NAVBAR">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+          <span class="navbar-brand">Shoppy</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapse_menu">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link">Men</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Women</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Kids</a>
+              </li>
+            </ul>
+            <hr>
+            <p class="text-center">
+            <button type="button" class="btn btn-link text-center" style="color: black; font-size: 14px;text-align: center;">Sale</button>
+            <button type="button" class="btn btn-link" style="color: black; font-size: 14px; text-align: center;">Collection</button>
+            <button type="button" class="btn btn-link" style="color: black; font-size: 14px; text-align: center;">New</button>
+            </p>
+            <hr>
+            <form action="" class="form-inline">
+              <input type="Search" class="form-control mr-sm-2" placeholder="Search">
+              <button class="btn btn-outline-success my-2 "> Search</button>
+            </form>
+          </div>
         </nav>
-
         
-    </body>
-</html>
-<section>
-    <div class="Name">
-        <h1 onclick="window.open('index.html','_self')" style="cursor: pointer; display: inline-block;"><strong>Shoppy</strong></h1>
-    </div>
-</section>
+    </section>
+    
 
+
+  <!--****************** Sale banner ******************-->
+  <section id="sale-banner">
+    <div class="black-friday" onclick="window.open('saleproducts.html', '_self')">
+      <img  class="sale-poster" src="./images/black-friday-shopping-at-home.jpg" alt="SaleBannerPic">
+    </div>
+  </section>
+
+  <!-- ****************** Men Categories ******************-->
+  <section class="menCategories">
+    <div class="model" >
+      <img class="model-pic" src="./images/MenModelsample.jpg" alt="MenModelPic" >
+    </div>
+  </section>
+
+ 
+  
+</body>
